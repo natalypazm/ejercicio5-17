@@ -1,8 +1,10 @@
 function calcular()
 {
 	var n = document.getElementById("n").value;
+	var talking = document.getElementById("talking");
+    var noTalking = document.getElementById("noTalking");
 	var salida = document.getElementById("salida");
-	if (n<7 || n>20){
+	if (7<n<20 && talking.checked){
 		salida.innerHTML = "Estas en Problemas!" ;
 	}
 	else{
