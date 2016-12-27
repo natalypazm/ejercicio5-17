@@ -1,8 +1,14 @@
+*{
+	font-family: 'Satisfy', cursive;
+}
 body{
 	background:#286090;
+	background:url(parrot.jpg)no-repeat;
+	background-position:right;
+	background-size:contain;
 }
 .container{
-	margin:200px auto;
+	margin:190px auto;
 	background:rgba(52, 241, 180, 0.5);
 	width:70%;
 	padding:20px;
@@ -21,7 +27,12 @@ button{
 	background:#000;
 	color:#FFF;
 }
-
+footer{
+	text-align:center;
+}
+footer a{
+	color:black;
+}
 @media screen and (max-width:750px){
 	.container{
 		width:100%;
